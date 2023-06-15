@@ -1,0 +1,125 @@
+:root {
+    --body-bg-color: #696666;
+    --purple: #989795;
+  }
+  
+  #perfil{
+    height: 12rem;
+    width: 12rem;
+ border-radius:50%
+
+  }
+
+  body{
+    background-image: url(imagem/1600w-QCWwaunOtBw.webp)
+  }
+
+#prova{
+  font-family: Arial, Helvetica, sans-serif;
+}
+#nome{
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#instagram{
+    height: 1rem;
+    width: 1rem;
+    margin: 3rem;
+}
+
+#twitter{
+
+    height: 1rem;
+    width: 1rem;
+    margin: 3rem;
+}
+#pinterest{
+    height: 1rem;
+    width: 1rem;
+    margin: 3rem;
+}
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  /*  */
+  
+  .container {
+    width: 100vw;
+    height: 100vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container .tree-container {
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .tree-container .avatar {
+    width: 213px;
+    height: 213px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    border: 1px solid var();
+    border-radius: 50%;
+  }
+  
+  
+  .tree-container .instagram-user {
+    margin-top: 15px;
+    color: var(--purple);
+  }
+  
+  .tree-container .links-container {
+    margin-top: 17px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .links-container .link {
+    margin-top: 16px;
+    width: 325px;
+  
+    border: 2px solid var(--purple);
+    border-radius: 26px;
+  
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+  
+    padding: 12px 0;
+  
+    transition: ease 0.3s;
+  }
+  
+  .links-container .link:hover {
+    background: var(--purple);
+    color: var(--body-bg-color);
+  
+    transition: ease 0.5s;
+  }
+  
+  
+  .socials-container .social {
+    transform: scale(0.9);
+  
+    transition: ease 0.2s;
+  }
+  
+  .socials-container .social:hover {
+    transform: scale(1);
+  }
+  
